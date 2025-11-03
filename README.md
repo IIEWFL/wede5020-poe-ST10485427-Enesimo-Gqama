@@ -54,6 +54,20 @@ Screenshots of website being used on different screens:
 <img width="1152" height="672" alt="Screenshot 2025-09-29 144429" src="https://github.com/user-attachments/assets/032c7239-50fa-4fe6-ae03-69e639e8a0c3" />
 <img width="1133" height="642" alt="Screenshot 2025-09-29 144505" src="https://github.com/user-attachments/assets/b903cf73-b1b6-4730-a0fb-e8a37fe3eb18" />
 
+Part 3
+
+SEO AND MARKETING STRATEGY
+
+On-page SEO was implemented with an emphasis on targeted keywords including "Botshabelo babies home", "Midtand preschool", and "children's charity South Africa", as well as optimised meta titles, descriptions and clear heading hierarchy with internal links. Technical SEO improvements included a sitemap, robots.txt setting and canonical URLs. The off-page SEO strategy prioritised backlink creation through local company directories, non-profit platfors, community collaborations and press releases as well as social media integration using Open Graph tags and platform specific tactics. Local SEO optimisation included using location specific keywords, providing consistent contact information, integrating Google Maps and preparing for local business directory submissions.
+
+Security Implementation
+
+To improve website security, strong protection measures were implemented such as a strict content security policy to control resource loading, XSS protection headers to prevent cross site scripting, frame protection to prevent clickjacking attempts and MIME sniffing prevention to ensure proper content type recognition.
+
+Performance Optimisation
+
+The website's loading time was improved by properly scaled pictures with lazy loading, effective CSS and JavaScript performance and streamlined resource management for faster asset delivery. The user experience was further improved with a mobile-first design, progressive enhancement to provide core funtionality for all users and extensive corss-device testing to ensure a uniform experience across all platforms.
+
 
 References 
 
