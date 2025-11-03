@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, inital-scale=1.0">
+    <title> Botshabelo Babies Home & Preschool | Place of Refuge for Children </title>
+    <meta name="description" content="Botshabelo provides loving care and education for vulnerable children in Midrand. Support our babies home and preschool programs.">
+    <meta name="keywords" content="Botshabelo, babies home, preschool, Midrand, children care, early childhood development, South Africa">
+    <meta name="author" content="Botshabelo Babies Home & Preschool">
+
+    <!--Open Graph meta tags-->
+    <meta property="og:title" content="Botshabelo Babies Home & Preschool">
+    <meta property="og:description" content="A place of refuge for vulnerable children in Midrand">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.botshabelo.org">
+
+    <!--Security Headers-->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: https:; style-src 'self'
+    'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com;">
+    <meta http-equiv="X-Content-Type-Options" content="nonsniff">
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!--Canonial URL-->
+    <link rel="canonical" href="https://www.botshabelo.org">
+</head> 
+
+<body>
+    <!-- Header and Navigation Section -->
+ <header>
+    <img src="Images/botshabelo_logo.jpg" width="150" height="100" class="logo" 
+    alt="Botshabelo Babies Home & Preschool logo"> 
+    <h1>Botshabelo Babies Home & Preschool</h1>
+    <button class="hamburger" aria-label="Toggle navigation">☰</button>
+     <nav>
+
+         <br> 
+         <a href="index.html">Home</a>
+         |
+         <a href="our-story.html">Our Story</a>
+         |
+         <a href="programs.html">Our Programs</a>
+         |
+         <a href="get-involved.html">Get Involved</a>
+         |
+         <a href="contact.html">Contact Us</a>
+     </nav>
+ </header>
+
+<main>
+    <!-- Contact, Operation Hours & Map Section -->
+    <section>
+        <h1>Contact Us</h1>
+        <p>We would love to hear from you. Reach out with any questions or enquiries.</p>
+    </section>
+
+    <section>
+        <h2>Get in Touch</h2>
+        <p><b>Address (Main Office & Babies Home):</b><br>64 Main Road (R55), Crowthrone, Kyalami, Midrand, 1684</p>
+        <p><b>Adress (Preschool & Donation Centre):</b><br>64 Main Road (R55), Crowthrone, Kyalami, Midrand, 1684</p>
+        <p><b>Contact Detail:</b> <a href="+27670136679">+27 67 013 6679</a></p>
+        <p><b>Email Address:</b> <a href="office@botshabelo.co.za">office@botshabelo.co.za</a></p>
+
+        <h2>Office Hours</h2>
+        <p>Monday-Friday:<br>08:30-16:00</p>
+        <h2>Donation Centre Hours</h2>
+        <p>Tuesday-Friday:<br>10:30-17:00</p>
+        <p>Monday:<br>Closed</p>
+        <p>First Saturday:<br>09:00-12:00</p>
+
+
+        <h2>Find Us</h2>
+        <!-- Embedded Google Map showing the location -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3586.933007438939!2d28.07552237515402!3d-25.970237377221515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95704dee8f62a7%3A0x16031223e613c7cf!2sBotshabelo%20Babies%20Home%20%26%20Preschool!5e0!3m2!1sen!2snl!4v1756195364968!5m2!1sen!2snl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <p><i>View our two locations in Kyalami, Midrand on the map above.</i></p>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section>
+        <div style="width: 90%;background-color: rgb(255, 247, 155); padding: 1cm;">
+            <h2>Send Us a Message</h2>
+                <p><i>Please fill out the form below to get in touch with us.</i></p>
+            <form id="contact-form" class="contact-form">
+                
+        <div class="form-group">
+            <label for="contact-name">Your Name *</label>
+            <input type="text" id="contact-name" name="name" required>
+            <div class="error-message"></div>
+        </div>
+        
+        <div class="form-group">
+            <label for="contact-email">Your Email *</label>
+            <input type="email" id="contact-email" name="email" required>
+            <div class="error-message"></div>
+        </div>
+        
+        <div class="form-group">
+            <label for="contact-phone">Phone Number</label>
+            <input type="tel" id="contact-phone" name="phone">
+            <div class="error-message"></div>
+        </div>
+        
+        <div class="form-group">
+            <label for="contact-subject">Subject *</label>
+            <select id="contact-subject" name="subject" required>
+                <option value="">Please select...</option>
+                <option value="general">General Inquiry</option>
+                <option value="volunteer">Volunteering</option>
+                <option value="donation">Donation Question</option>
+                <option value="preschool">Preschool Enrollment</option>
+                <option value="other">Other</option>
+            </select>
+            <div class="error-message"></div>
+        </div>
+        
+        <div class="form-group">
+            <label for="contact-message">Your Message *</label>
+            <textarea id="contact-message" name="message" rows="5" required></textarea>
+            <div class="error-message"></div>
+        </div>
+        
+        <button type="submit" class="btn">Send Message</button>
+
+            </form>
+    </section>
+</main>
+
+<!-- ==== Footer ====-->
+<footer>
+    <div class="footer-info">
+    <p>Witpoort, Midrand, 1684</p>
+    <p>Phone: <a href="tel:+27670136679"> 067 013 6679 </a></p>
+     </div>
+    <div class="footer-newsletter">
+        <p><b>STAY UPDATED</b> Subcribe to our newsletter for stories and updates.</p>
+        <form action="#" method="post">
+            <input type="email" name="email" placeholder="Your Email Address" required>
+            <button type="submit" class="Subcribe">Subscribe</button>
+        </form>
+    </div>
+    <div class="footer-bottom">
+        <p> Botshabelo Babies Home & Preschool. All rights reserved. | A registered NPO (006589-NPO) </p>
+    </div>
+</footer>
+</body>
+</html>

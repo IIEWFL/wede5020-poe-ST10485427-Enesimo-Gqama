@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, inital-scale=1.0">
+    <title> Botshabelo Babies Home & Preschool | Place of Refuge for Children </title>
+    <meta name="description" content="Botshabelo provides loving care and education for vulnerable children in Midrand. Support our babies home and preschool programs.">
+    <meta name="keywords" content="Botshabelo, babies home, preschool, Midrand, children care, early childhood development, South Africa">
+    <meta name="author" content="Botshabelo Babies Home & Preschool">
+
+    <!--Open Graph meta tags-->
+    <meta property="og:title" content="Botshabelo Babies Home & Preschool">
+    <meta property="og:description" content="A place of refuge for vulnerable children in Midrand">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.botshabelo.org">
+
+    <!--Security Headers-->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: https:; style-src 'self'
+    'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com;">
+    <meta http-equiv="X-Content-Type-Options" content="nonsniff">
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!--Canonial URL-->
+    <link rel="canonical" href="https://www.botshabelo.org">
+</head> 
+
+<body>
+    <!-- Header and Navigation Section -->
+ <header>
+    <img src="Images/botshabelo_logo.jpg" width="150" height="100" class="logo" 
+    alt="Botshabelo Babies Home & Preschool logo"> 
+    <h1>Botshabelo Babies Home & Preschool</h1>
+    <button class="hamburger" aria-label="Toggle navigation">☰</button>
+     <nav>
+
+         <br> 
+         <a href="index.html">Home</a>
+         |
+         <a href="our-story.html">Our Story</a>
+         |
+         <a href="programs.html">Our Programs</a>
+         |
+         <a href="get-involved.html">Get Involved</a>
+         |
+         <a href="contact.html">Contact Us</a>
+     </nav>
+ </header>
+
+<main>
+    <!-- Donation Section -->
+    <section>
+        <h1>Get Involved</h1>
+        <p>Join us in making a lasting difference in the lives of vulnerablechildren. Your support matters.</p>
+    </section>
+
+    <section>
+        <h2>Make a Donation</h2>
+        <p>Your financial contribution, no matter the amount goes directly to funding food, education, shelterand care for our children.</p>
+
+        <h3>Once-off Donation</h3>
+        <p>Make a single gift to support our immediate needs.</p>
+        <a href="donation-form">Donate once-off</a>
+
+        <h3>Monthly Pledge</h3>
+        <p>Become a sustainer and provide reliable ongoing support.</p>
+        <a href="donation-form">Donate Monthly</a>
+    </section>
+    <!-- Simple Donation Form (would link to PayFast in reality) -->
+    <section class="donation-form">
+        <h3>Donation Form</h3>
+        <form id="donation-form">
+            <div class="form-group">
+                <label for="donor-name">Full Name *</label>
+                <input type="text" id="donor-name" name="donor-name" required>
+                <div class="error-message"></div>
+            </div>
+
+            <div class="form-group">
+                <label for="donor-email">Email Address *</label>
+                <input type="email" id="donor-email" name="donor-email" required>
+                <div class="error-message"></div>
+            </div> 
+
+            <div class="form-group">
+                <label for="donation-amount">Donation Amount (ZAR) *</label>
+                <input type="number" id="donation-amount" name="amount" min="50" required>
+                <div class="error-message"></div>
+            </div>
+
+            <div class="form-group">
+                <label for="donation-type">Donation Type *</label>
+                <select id="donation-type" name="donation-type" required>
+                    <option value="">Select donation type...</option>
+                    <option value="once-off">Once-off Donation</option>
+                    <option value="monthly">Monthly Pledge</option>
+                </select>
+                <div class="error-message"></div>
+            </div>
+
+            <div class="form-group">
+                <label for="donation-purpose">Preferred Purpose (Optional)</label>
+                <select id="donation-purpose" name="donation-purpose">
+                    <option value="">Where needed most</option>
+                    <option value="babies-home">Babies Home</option>
+                    <option value="preschool">Preschool</option>
+                    <option value="food">Nutrition Program</option>
+                    <option value="facilities">Facility Maintenance</option>
+                </select>
+                <div class="error-message"></div>
+            </div>
+
+            <button type="submit" class="btn"> Proceed to Secure Payment</button>
+        </form>
+    </section>
+
+    <!-- Volunteer Section -->
+    <section>
+        <h2>Volunteer Your Time</h2>
+        <p>Share your skills and love. We need help with childcare, tutoring, maintenance and administrative tasks.</p>
+        <img src="Images/volunteer.jpg" alt="People volunteering at the home shelter" width="400" height="300">
+        <br>
+        <a href="contact.html">Apply to Volunteer</a> 
+    </section>
+
+    <!-- Fundraise Section -->
+    <section>
+        <h2>Start a Fundraiser</h2>
+        <p><b>Get creative!</b> Run a marathon, host a birthday fundrasier or encourage your company to support us as part of their CSI initiative.</p>
+        <img src="Images/donations.jpg" alt="Fundraiser being held at the Botshabelo home" width="400" height="300">
+        <br>
+        <a href="contact.html">Contact Us about Fundraising</a>
+    </section>
+</main>
+
+<!-- ==== Footer ====-->
+<footer>
+    <div class="footer-info">
+    <p>Witpoort, Midrand, 1684</p>
+    <p>Phone: <a href="tel:+27670136679"> 067 013 6679 </a></p>
+     </div>
+    <div class="footer-newsletter">
+        <p><b>STAY UPDATED</b> Subcribe to our newsletter for stories and updates.</p>
+        <form action="#" method="post">
+            <input type="email" name="email" placeholder="Your Email Address" required>
+            <button type="submit" class="Subcribe">Subscribe</button>
+        </form>
+    </div>
+    <div class="footer-bottom">
+        <p> Botshabelo Babies Home & Preschool. All rights reserved. | A registered NPO (006589-NPO) </p>
+    </div>
+</footer>
+</body>
+</html>
+
