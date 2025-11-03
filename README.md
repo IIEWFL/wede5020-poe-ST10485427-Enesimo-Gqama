@@ -33,9 +33,10 @@ Part 1
 
 Part 1 was primarily about developing the design of the HTML which consists of five pages: the home page(index.html), our programs page(programs.html), the get involved page(get-involved.html) and the contact page(contact.html), as well as filling it with the information obtained from the chosen proposal. 
 
-Sitemap 
+Updated Sitemap 
 
- <img width="772" height="521" alt="_Homepage (index html) - Notepad 2025_08_26 20_38_46" src="https://github.com/user-attachments/assets/089ccd24-acb2-453c-9b6d-b4467f3de1e3" />
+<img width="677" height="861" alt="_Homepage (index html) - Notepad 2025_11_03 20_39_59" src="https://github.com/user-attachments/assets/36fac05b-7738-4fb2-a205-a0632719e23e" />
+
 
 Changelog
 
