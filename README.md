@@ -4,22 +4,22 @@ Botshabelo Babies Home and Preschool Website
 
 ST10485427- Enesimo Gqama 
 
-Project Overview
+PROJECT OVERVIEW
 
 This project involves designing and building a comprehensive website for Botshabelo Babies and Preschool, a non-profit organisation in Kyalami, Midrand. The website acts as a digital platform for raising awareness, accepting donations, recruiting volunteers and providing information about organisations programs and impacts.
 
-Website Goals and Objectives 
+WEDSITE GOALS AND OBJECTIVES
 
 Primary goals: to increase sustainable funding and resource support while boosting community engagement.
 Awareness: clearly articulate Botshabelo’s missions and impacts.
 Recruit volunteers: creating different volunteer roles so everyone can apply. 
 Donations: providing clear pathways for once-off donations and monthly donations. 
 
-Key Features and Functionality
+KEY FEATURES AND FUNCTIONALITLIES
 
 The website will have a fully responsive design that is geared for all devices making it accessible and to use on any mobile device. It will contain a secure donation processing system with several giving choices as well volunteer application forms to encourage community involvement. The program pages will feature the Babies Home and Preschool while other sections will discuss the organisation’s history, mission and vision. 
 
-Timeline and Milestones 
+TIMELINE AND MILESTONES
 
 Week 1: Planning and collecting content information.
 
@@ -33,17 +33,18 @@ Part 1
 
 Part 1 was primarily about developing the design of the HTML which consists of five pages: the home page(index.html), our programs page(programs.html), the get involved page(get-involved.html) and the contact page(contact.html), as well as filling it with the information obtained from the chosen proposal. 
 
-Updated Sitemap 
+UPDATED SITEMAP
 
 <img width="677" height="861" alt="_Homepage (index html) - Notepad 2025_11_03 20_39_59" src="https://github.com/user-attachments/assets/36fac05b-7738-4fb2-a205-a0632719e23e" />
 
 
-Changelog
+CHANGELOG
 
 The project has completed the initial HTML structure ensuring its usability. A navigation system has been built for all pages. Improvements include CSS styling; JavaScript interaction and donation system is connecting. CSS update: developed an external CSS stylesheet called styles.css and provided basic styling for colours, fonts and layouts. The website was made mobile responsive snd the navigation was optimised to perform seamlessly on both phones and tablets. There are changes on the buttons and forms, adding modest hover effects to enhance the overall user experience. 
+
 Update-03/11/2025- An engaging and interactive user experience was created using JavaScript, which included a responsive hamburger menu with smooth animations, real-time form validation with clear error messaging and interactive elements like a FAQ accordion, smooth scrolling and dynamic content loading. The SEO implementation comprised optimised meta tags, semantic HTML structure, keyword rich content, informative picture alt text and technical optimised CSS and strong protection features like as Content Security Policy and XSS prevention improved both performance and security. Form upgrades include labelling, keybord navigation and touch-friendly design for mobile users.
 
-Screenshots of website being used on different screens: 
+SCREENSHOT OF WEBSITE BEING USED ON DIFFERENT SCREENS: 
 
 <img width="546" height="843" alt="Screenshot 2025-09-29 144009" src="https://github.com/user-attachments/assets/cf7097bc-0df3-4d66-b503-118b03288016" />
 <img width="485" height="823" alt="Screenshot 2025-09-29 144046" src="https://github.com/user-attachments/assets/0c49ffa8-a963-45f1-b9c8-fc7f6e5926e8" />
@@ -60,16 +61,16 @@ SEO AND MARKETING STRATEGY
 
 On-page SEO was implemented with an emphasis on targeted keywords including "Botshabelo babies home", "Midtand preschool", and "children's charity South Africa", as well as optimised meta titles, descriptions and clear heading hierarchy with internal links. Technical SEO improvements included a sitemap, robots.txt setting and canonical URLs. The off-page SEO strategy prioritised backlink creation through local company directories, non-profit platfors, community collaborations and press releases as well as social media integration using Open Graph tags and platform specific tactics. Local SEO optimisation included using location specific keywords, providing consistent contact information, integrating Google Maps and preparing for local business directory submissions.
 
-Security Implementation
+SECURITY IMPLEMENTATION
 
 To improve website security, strong protection measures were implemented such as a strict content security policy to control resource loading, XSS protection headers to prevent cross site scripting, frame protection to prevent clickjacking attempts and MIME sniffing prevention to ensure proper content type recognition.
 
-Performance Optimisation
+PERFORMANCE OPTIMISATION
 
 The website's loading time was improved by properly scaled pictures with lazy loading, effective CSS and JavaScript performance and streamlined resource management for faster asset delivery. The user experience was further improved with a mobile-first design, progressive enhancement to provide core funtionality for all users and extensive corss-device testing to ensure a uniform experience across all platforms.
 
 
-References 
+REFERENCES 
 
 www.thelunchboxfund.org. (n.d.). The Lunchbox Fund. [online] Available at: https://www.thelunchboxfund.org/.
 
