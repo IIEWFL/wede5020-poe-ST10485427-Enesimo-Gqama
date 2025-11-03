@@ -29,9 +29,18 @@ Week 3: CSS styling and respective designs.
 
 Week 4: Testing, Debugging and Deployment.
 
-Part 1
+PART 1
 
 Part 1 was primarily about developing the design of the HTML which consists of five pages: the home page(index.html), our programs page(programs.html), the get involved page(get-involved.html) and the contact page(contact.html), as well as filling it with the information obtained from the chosen proposal. 
+
+PART 2 
+
+Using an external CSS stylesheet enables centralised and organised styling across a website, making it easier to manage and update. The site adapts fluidly to different screen sizes thanks to mobile-responsive design and media queries, resulting in an ideal user experience on smartphones, tablets, and PCs. Establishing a uniform colour palette and typography improves visual cohesion and brand identification, while cross-browser compatibility guarantees that the website runs and shows appropriately across all major web browsers, offering a dependable and professional appearance to all users. 
+
+PART 3 
+
+Incorporating JavaScript interaction and form validation improves user experience by making websites more dynamic and ensuring that user inputs are correct and safe. Comprehensive SEO optimisation boosts the site's exposure in search engine results, resulting in increased traffic and engagement. Implementing strong security measures safeguards both the website and its users against potential threats and weaknesses. Furthermore, performance improvements, such as faster loading times and more efficient resource management, guarantee that the website functions smoothly, delivering a fast and seamless experience for all visitors.
+
 
 UPDATED SITEMAP
 
